@@ -1,9 +1,12 @@
-informção do mysql:
-host: localhost
-porta: 3306
+# Informações
 
-informção connection:
-host: mysql
-porta: porta mysql .env
+## informção do mysql:
+* host: **localhost**
+* porta: **3306**
 
-resto sao as informações do .env
+## informção connection:
+* host: **mysql**
+* porta: **porta mysql .env**
+
+## Outros
+* resto sao as informações do .env

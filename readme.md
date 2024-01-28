@@ -6,10 +6,10 @@
 npm init -y
 ```
 
-## Passo 2: instalar babel, webpack e http server
+## Passo 2: instalar babel e webpack
 
 ```bash
-npm install @babel/core @babel/cli webpack webpack-cli http-server
+npm install @babel/core @babel/cli webpack webpack-cli
 ```
 
 ## Passo 3: configurar arquivos de configuração
@@ -58,13 +58,11 @@ npm install @babel/core @babel/cli webpack webpack-cli http-server
   ```json
   {
     "scripts": {
-      "start": "npx http-server --watch",
-      "build": "webpack --mode development --watch",
-      "dev": "npm run start && npm run build"
+      "build": "webpack --mode development --watch"
     }
   }
   ```
-- O script start executa um servidor http, o build faz os arquivos do babel na dist o dev executa os 2
+- O script build faz os arquivos do babel na dist
 
 ## Passo 5: Selecionar o arquivo script no html
 
@@ -76,7 +74,7 @@ npm install @babel/core @babel/cli webpack webpack-cli http-server
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="dist/seuArquivo.js" async></script>
-    <title>Login</title>
+    <title>Document</title>
 </head>
 
 <body>
@@ -84,4 +82,4 @@ npm install @babel/core @babel/cli webpack webpack-cli http-server
 
 </html>
 ```
-* Agora so instalar as bibiliotecas que desejar com react ou typescript
+* Agora so instalar as bibiliotecas que desejar como react ou typescript

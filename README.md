@@ -2,11 +2,16 @@
 
 ## informção do mysql:
 * host: **localhost**
-* porta: **3306**
+* user: **root**
+* password: **senha mysql .env**
+* porta: **porta mysql .env**
 
 ## informção connection:
 * host: **mysql**
-* porta: **porta mysql .env**
+* user: **root**
+* password: **senha mysql .env**
+* databse: **database mysql .env**
+* porta: **3306**
 
 ## Outros
 * resto sao as informações do .env

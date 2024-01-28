@@ -22,7 +22,7 @@ npm install @babel/core @babel/cli webpack webpack-cli
 
   module.exports = {
     entry: {
-      index: "./src/index.js",
+      seuArquivo: "./src/seuArquivo.js",
     },
     output: {
       filename: "[name].js",

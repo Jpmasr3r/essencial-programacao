@@ -9,7 +9,7 @@ npm init -y
 ## Passo 2: instalar babel e webpack
 
 ```bash
-npm install @babel/core @babel/cli webpack webpack-cli
+npm install @babel/core @babel/cli babel-loader webpack webpack-cli
 ```
 
 ## Passo 3: configurar arquivos de configuração
